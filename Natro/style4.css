@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  outline: none;
+}
+
+.p2 {
+  padding-top: 15px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: lightgrey;
+}
+#sp {
+  height: 30px;
+  width: 90px;
+  background-color: lime;
+  border-radius: 50%;
+}
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: relative;
+  bottom: -27px;
+  left: 235px;
+}
+.circle1 {
+  height: 10px;
+  width: 10px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: relative;
+  bottom: -17px;
+  left: 525px;
+}
+.black-thing {
+  height: 25px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50px;
+  position: relative;
+  bottom: 25px;
+  left: 95px;
+}
+/* PART 2*/
+.buttons1 {
+  border-radius: 4px;
+  border: none;
+  height: 25px;
+}
+.buttons2 {
+  color: white;
+  border: none;
+}
+#p4 {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+#p7 {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.p7-1 {
+  background-color: darkblue;
+  color: white;
+  border-radius: 25px;
+}
+.offers {
+  border-radius: 25px;
+  padding-left: 30px;
+}
+#p8 {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+#p8 h4 {
+  padding-bottom: 40px;
+}
+/* PART 3*/
+.webbutton {
+  width: 220px;
+  border: 2px solid #002882;
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+  background-color: #002882;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.kurumsalbutton {
+  width: 220px;
+  border: 2px solid #002882;
+  border-top-right-radius: 34px;
+  border-bottom-right-radius: 34px;
+  background-color: white;
+  color: #002882;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
+  right: 5px;
+}
+
+.super {
+  background-color: orangered;
+  color: white;
+  font-weight: light;
+  width: 110px;
+  border-radius: 30px;
+  position: relative;
+  bottom: 30px;
+  right: 160px;
+}
+/* PART 4*/
+/* PART 5*/
+.cup {
+  background-image: url(img/cup.png);
+  background-position-x: right;
+  background-position-y: -47px;
+  text-align: center;
+  background-color: rgb(24, 24, 194);
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  color: white;
+  height: 320px;
+}
+.tu {
+  color: yellow;
+}
+/*PART 6*/
+.text {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+/* PART 7*/
+.parag1 {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+span {
+  color: blue;
+  width: 60px;
+  display: inline-block;
+}
+.cards-part {
+  background-color: darkblue;
+  color: white;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 80px;
+}
+.cards {
+  background-color: white;
+  color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.button-cards {
+  width: 140px !important;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+/* PART 8 */
+.neden {
+  padding-left: 60px;
+  text-align: center;
+  background-image: url(img/pexels-photo-355747.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+.graphs {
+  margin: 40px;
+  background-color: white;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* PART 9*/
+.help {
+  padding-top: 70px;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+.help-cards {
+  margin-left: 80px;
+}
+.help-1 {
+  border-left: 2px solid lightgrey;
+}
+/* PART 9 */
+.form-part {
+  background-color: rgb(194, 221, 238);
+  border-radius: 10px;
+  margin-left: 130px;
+  height: 150px;
+  max-width: 80%;
+  padding-bottom: 50px;
+}
+.banner {
+  width: 260px !important;
+  height: 200px;
+  overflow: clip;
+  position: relative;
+  bottom: 30px;
+  margin-left: 40px;
+}
+.indirim {
+  font-size: 26px;
+  color: black;
+  font-weight: bolder;
+}
+.indirim-part {
+  padding-top: 30px;
+}
+
+.send-part {
+  padding-top: 40px;
+}
+.send-part label {
+  padding-left: 10px;
+}
+.gonderbtn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+  right: 5px;
+}
+.sbar {
+  height: 50px;
+  width: 80%;
+  border: none;
+  padding-left: 20px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+/* PART 10*/
+.foot {
+  background-color: black;
+  color: white;
+  height: 60px;
+  font-size: 12px;
+  padding-top: 17px;
+  padding-left: 60px;
+}
+.last-list {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  border-left: 1px solid rgb(99, 93, 93);
+  padding: 5px;
+}
+.last-list:hover {
+  color: limegreen;
+  cursor: pointer;
+}
+.last-list:first-child {
+  border: none;
+}
+/* PART 10*/
+.services {
+  background-color: rgb(17, 17, 148);
+  color: rgb(190, 186, 186);
+  font-size: 13px;
+  padding-top: 140px;
+  padding-bottom: 70px;
+  font-weight: 100;
+  padding-left: 70px;
+}
+.headings {
+  color: white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+.end-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+.natro-end {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.ad {
+  color: grey;
+  font-size: 12px;
+  font-weight: bold;
+}
+.end-list:hover {
+  color: white;
+  cursor: pointer;
+}
